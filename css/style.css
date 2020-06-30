@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul,
@@ -51,8 +51,8 @@ select:focus {
   font-weight: 600;
   font-size: 14px;
   text-transform: capitalize;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .main-menu ul li a:hover {
@@ -82,14 +82,14 @@ select:focus {
   font-size: 30px;
   color: #fff;
   width: 80%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   position: relative;
   padding-bottom: 40px;
 }
 
 #banner .banner-text h3::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 80px;
   position: absolute;
@@ -187,6 +187,127 @@ select:focus {
 .social-text p {
   font-size: 13px;
   color: #cccccc;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+#about {
+  background-color: #f5f5f5;
+  padding: 145px 0;
+}
+
+.nav-link {
+  height: 108px;
+  width: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333333;
+  margin-bottom: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  height: 108px;
+  width: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #ff8b38 !important;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.body-one,
+.body-two {
+  font-size: 14px;
+  color: #86878b;
+  width: 86%;
+}
+
+.tab-btn {
+  border: none;
+  background: #ff8b38;
+  padding: 15px 22px;
+  border-radius: 4px;
+  margin-top: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.tab-btn a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tab-btn a:hover {
+  text-decoration: none;
+}
+
+.tab-btn:hover {
+  background: #ff9b51;
+}
+
+#list {
+  padding: 124px 0;
+}
+
+#list .line {
+  height: 2px;
+  width: 50px;
+  background-color: #ff9b51;
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+.line-margin-top {
+  margin-top: 30px;
+}
+
+.icon-list {
+  margin-top: 50px;
+}
+
+.list-body {
+  margin-left: 20px;
+}
+
+.list-body p {
+  font-size: 14px;
+  color: #212121;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.list-body .list-para {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  width: 75%;
 }
 /*# sourceMappingURL=style.css.map */
